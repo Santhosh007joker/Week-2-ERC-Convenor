@@ -1,5 +1,9 @@
 # Week-2-ERC-Convenor
 
+## I2C
+
+Github repo on advance libraries for intuitive interface for I2C devices - [](https://github.com/jrowberg/i2cdevlib)
+
 ## UART
 
 [Analog Devices](https://www.analog.com/en/resources/analog-dialogue/articles/uart-a-hardware-communication-protocol.html)
