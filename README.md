@@ -24,7 +24,7 @@ Github repo on advance libraries for intuitive interface for I2C devices - [i2cd
 
 [Arduino-EEPROM](https://docs.arduino.cc/learn/built-in-libraries/eeprom/)
 
-[Arduino-SD](https://docs.arduino.cc/libraries/sd/)
+[Arduino-SD](https://docs.arduino.cc/learn/programming/sd-guide/)
 
 ## MPU6050
 
