@@ -14,7 +14,9 @@ Github repo on advance libraries for intuitive interface for I2C devices - [](ht
 
 [Electronics Hub](https://www.electronicshub.org/basics-uart-communication/)
 
-### Youtube videos
+## USB
+
+[Beyondlogic](https://www.beyondlogic.org/usbnutshell/usb1.shtml)
 
 ## MPU6050
 
