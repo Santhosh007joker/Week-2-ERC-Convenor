@@ -18,6 +18,14 @@ Github repo on advance libraries for intuitive interface for I2C devices - [](ht
 
 [Beyondlogic](https://www.beyondlogic.org/usbnutshell/usb1.shtml)
 
+## Store Data in Microcontrollers : EEPROM,SD card
+
+[Arduino-Basic Memory guide](https://docs.arduino.cc/libraries/sd/)
+
+[Arduino-EEPROM](https://docs.arduino.cc/learn/built-in-libraries/eeprom/)
+
+[Arduino-SD](https://docs.arduino.cc/libraries/sd/)
+
 ## MPU6050
 
 ### Youtube videos
