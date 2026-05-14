@@ -2,7 +2,7 @@
 
 ## I2C
 
-Github repo on advance libraries for intuitive interface for I2C devices - [](https://github.com/jrowberg/i2cdevlib)
+Github repo on advance libraries for intuitive interface for I2C devices - [i2cdevlib](https://github.com/jrowberg/i2cdevlib)
 
 ## UART
 
