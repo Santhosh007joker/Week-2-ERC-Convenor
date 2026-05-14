@@ -10,9 +10,9 @@ Github repo on advance libraries for intuitive interface for I2C devices - [](ht
 
 [Sparkfun](https://learn.sparkfun.com/tutorials/serial-communication/uarts)
 
-[Adafruit](https://learn.adafruit.com/adafruit-ft232h-breakout/serial-uart)
-
 [Arduino](https://docs.arduino.cc/language-reference/en/functions/communication/serial/)
+
+[Electronics Hub](https://www.electronicshub.org/basics-uart-communication/)
 
 ### Youtube videos
 
