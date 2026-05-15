@@ -72,6 +72,8 @@
 
 &emsp; [Gas Sensors](https://wiki.dfrobot.com/tutorial/20146/)
 
+&emsp; [Light Sensors](https://www.renkeer.com/what-is-a-light-sensor/)
+
 ## Actuators
 
 &ensp; [Actuators](https://www.geeksforgeeks.org/machine-learning/actuators-in-iot/)
