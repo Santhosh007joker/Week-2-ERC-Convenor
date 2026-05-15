@@ -4,11 +4,17 @@
 
 &ensp; [Peripherals and uses](https://www.engineeracar.com/mcu-peripherals/)
 
+&ensp; [GPIOs](https://www.artekit.eu/doc/guides/all-about-gpios/)
+
+&ensp; [ADCs](https://www.electronics-tutorials.ws/combination/analogue-to-digital-converter.html)
+
 ## Microcontrollers Communication Protocol
 
 &ensp; [Communication Protocols](https://medium.com/geekculture/microcontroller-connection-protocols-w1-i2c-spi-uart-7625ad013e60)
 
 ### SPI
+
+&ensp; [SPI Communication](https://www.analog.com/en/resources/analog-dialogue/articles/introduction-to-spi-interface.html)
 
 &ensp; [SPI Modes and Buses](https://www.analog.com/en/resources/analog-dialogue/articles/introduction-to-spi-interface.html)
 
@@ -21,6 +27,8 @@
 &ensp; [I2C Addresses](https://learn.adafruit.com/i2c-addresses/overview)
 
 &ensp; [I2C working](https://youtube.com/playlist?list=PLgMDNELGJ1CbufZjqWa8uoSlQWKqVwPN7&si=zXn78Y3Jr8jRuUwt)
+
+&ensp; [I2C Communication](https://www.analog.com/en/resources/analog-dialogue/articles/i2c-communication-protocol-understanding-i2c-primer-pmbus-and-smbus.html)
 
 ### UART
 
@@ -35,6 +43,8 @@
 ### USB
 
 &ensp; [Beyondlogic](https://www.beyondlogic.org/usbnutshell/usb1.shtml)
+
+&ensp; [USB Basics](https://www.geeksforgeeks.org/computer-networks/universal-serial-bus-usb/)
 
 ## Store Data in Microcontrollers : EEPROM,SD card
 
