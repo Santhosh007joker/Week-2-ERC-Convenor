@@ -16,7 +16,6 @@
 #include <SSD1306AsciiWire.h>
 #include <DHT.h>
 
-// ---------- Pin / config ----------
 #define DHT_PIN    15
 #define DHT_TYPE   DHT22
 #define SD_CS       5
@@ -29,7 +28,6 @@ const char* WIFI_PASS = "";
 
 const unsigned long SAMPLE_INTERVAL = 2000;
 
-// ---------- Globals ----------
 DHT               dht(DHT_PIN, DHT_TYPE);
 SSD1306AsciiWire  oled;
 WebServer         server(80);
@@ -40,14 +38,12 @@ uint32_t sampleCount = 0;
 bool     sdReady     = false;
 unsigned long lastSampleMs = 0;
 
-// ---------- Forward declarations ----------
 void readSensor();
 void updateOLED();
 void logToSD();
 void handleRoot();
 void handleData();
 
-// ---------- Dashboard HTML ----------
 const char DASHBOARD_HTML[] PROGMEM = R"HTML(
 <!DOCTYPE html><html lang="en"><head>
 <meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
@@ -94,24 +90,20 @@ tick();setInterval(tick,2000);
 </script></body></html>
 )HTML";
 
-// ---------- Setup ----------
 void setup() {
   Serial.begin(115200);
   delay(200);
   Serial.println("\n--- ESP32 Environmental Monitor ---");
 
-  // I2C + OLED
   Wire.begin(I2C_SDA, I2C_SCL);
   oled.begin(&Adafruit128x64, OLED_ADDR);
   oled.setFont(System5x7);
   oled.clear();
   oled.println("Booting...");
 
-  // DHT
   dht.begin();
   Serial.println("DHT22 ready");
 
-  // SD card (optional — runs fine without)
   if (SD.begin(SD_CS)) {
     sdReady = true;
     Serial.println("SD card mounted");
@@ -126,7 +118,6 @@ void setup() {
     Serial.println("SD init FAILED (continuing without logging)");
   }
 
-  // WiFi
   oled.clear();
   oled.println("WiFi...");
   WiFi.mode(WIFI_STA);
@@ -141,13 +132,11 @@ void setup() {
   Serial.print(WiFi.localIP());
   Serial.println("/");
 
-  // Web server
   server.on("/",     handleRoot);
   server.on("/data", handleData);
   server.begin();
 }
 
-// ---------- Loop ----------
 void loop() {
   server.handleClient();
   if (millis() - lastSampleMs >= SAMPLE_INTERVAL) {
@@ -158,7 +147,6 @@ void loop() {
   }
 }
 
-// ---------- Helpers ----------
 void readSensor() {
   float h = dht.readHumidity();
   float t = dht.readTemperature();
