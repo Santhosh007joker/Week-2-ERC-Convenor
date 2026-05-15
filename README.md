@@ -88,7 +88,11 @@ Github repo on advance libraries for intuitive interface for I2C devices - [i2cd
 
 [Pneumatic Actuators](https://www.elprocus.com/pneumatic-actuator/)
 
-##
+## Intro to IoT
+
+[IoT and its components](https://www.geeksforgeeks.org/computer-networks/introduction-to-internet-of-things-iot-set-1/)
+
+[]
 
 
 
