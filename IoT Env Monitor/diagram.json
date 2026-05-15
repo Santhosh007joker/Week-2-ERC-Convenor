@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "author": "Anonymous maker",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "board-esp32-devkit-c-v4", "id": "esp", "top": 48, "left": 235.24, "attrs": {} },
+    { "type": "wokwi-dht22", "id": "dht1", "top": -38.1, "left": 493.8, "attrs": {} },
+    {
+      "type": "board-ssd1306",
+      "id": "oled1",
+      "top": -73.66,
+      "left": 77.03,
+      "attrs": { "i2cAddress": "0x3c" }
+    },
+    { "type": "wokwi-microsd-card", "id": "sd1", "top": 153.83, "left": -86.33, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX", "$serialMonitor:TX", "", [] ],
+    [ "dht1:VCC", "esp:3V3", "red", [ "v-86.4", "h-268.95" ] ],
+    [ "dht1:SDA", "esp:15", "green", [ "v0" ] ],
+    [ "dht1:GND", "esp:GND.2", "black", [ "v-28.8", "h-201.6" ] ],
+    [ "oled1:VCC", "esp:3V3", "red", [ "h115.35", "v144" ] ],
+    [ "oled1:GND", "esp:GND.2", "black", [ "v0" ] ],
+    [ "oled1:SCL", "esp:22", "green", [ "v0" ] ],
+    [ "oled1:SDA", "esp:21", "green", [ "v0" ] ],
+    [ "sd1:VCC", "esp:5V", "red", [ "v57.74", "h249.45" ] ],
+    [ "sd1:GND", "esp:GND.2", "black", [ "v-153.49", "h345.6" ] ],
+    [ "sd1:DO", "esp:19", "green", [ "h393.6", "v-28.69" ] ],
+    [ "sd1:DI", "esp:23", "green", [ "h-115.2", "v-124.89" ] ],
+    [ "sd1:SCK", "esp:18", "green", [ "h57.6", "v-38.41" ] ],
+    [ "sd1:CS", "esp:5", "green", [ "h38.4", "v-9.54", "h374.4", "v-48" ] ]
+  ],
+  "dependencies": {}
+}

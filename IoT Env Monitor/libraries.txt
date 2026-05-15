@@ -1,0 +1,7 @@
+# Wokwi Library List
+# See https://docs.wokwi.com/guides/libraries
+
+SSD1306Ascii
+DHT sensor library
+Adafruit Unified Sensor
+SD
