@@ -1,12 +1,4 @@
-/*
- * IoT Environmental Monitor — ESP32 + DHT22 + SSD1306 OLED + SD + Web Dashboard
- * Target: Wokwi (ESP32)
- *
- * Required libraries (libraries.txt for Wokwi):
- *   SSD1306Ascii
- *   DHT sensor library
- *   Adafruit Unified Sensor
- */
+
 #include <WiFi.h>
 #include <WebServer.h>
 #include <Wire.h>
