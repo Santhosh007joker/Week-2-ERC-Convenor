@@ -40,6 +40,8 @@ accelZ = a.acceleration.z;
 
 }
 
+//SD card should log - {Steps,SessionTime_s,MeanTemp_C,MeanHumidity_%}
+
 
 
 
