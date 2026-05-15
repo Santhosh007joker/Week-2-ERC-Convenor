@@ -14,7 +14,7 @@
 
 ### I2C
 
-&ensp; Github repo on advance libraries for intuitive interface for I2C devices - [i2cdevlib](https://github.com/jrowberg/i2cdevlib)
+&ensp; [i2cdevlib](https://github.com/jrowberg/i2cdevlib)
 
 &ensp; [I2C Buses](https://www.geeksforgeeks.org/computer-organization-architecture/i2c-communication-protocol/)
 
